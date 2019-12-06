@@ -1,0 +1,163 @@
+{
+	"id": "76d8b789-ac8d-9830-066c-c3b99aefd699",
+	"name": "Teste app Springboot + Spring Data + mongoDB",
+	"description": "",
+	"order": [
+		"4a27a465-c4de-1c66-9e98-9ce4ccee38e8",
+		"080707c7-2a3c-7d1e-2d9e-6d3a1d541832",
+		"6047cb44-174b-d1c9-a43b-5cf21c9b1026",
+		"d21c4ed9-b7f7-94b8-a6c7-14c82ca0791a",
+		"1e6b03ed-c65b-7b5d-31a5-6bd39f7a0fbe"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1575664842934,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "080707c7-2a3c-7d1e-2d9e-6d3a1d541832",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/api/clientes/5deabc2594a6ae569d2c9aba",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "76d8b789-ac8d-9830-066c-c3b99aefd699",
+			"data": null,
+			"dataMode": "params",
+			"name": "Listar Por Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1575664893672,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1e6b03ed-c65b-7b5d-31a5-6bd39f7a0fbe",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/api/clientes/5dea9e2c94a6ae569d2c9ab9",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "76d8b789-ac8d-9830-066c-c3b99aefd699",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remover Cliente por Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1575664946303,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4a27a465-c4de-1c66-9e98-9ce4ccee38e8",
+			"headers": "//Authorization: Basic dXNlcjo4OGM0YTJkOS1hMDYxLTRhZDMtOTYzZi0yMjg1MTRkNzY4NWM=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dXNlcjo4OGM0YTJkOS1hMDYxLTRhZDMtOTYzZi0yMjg1MTRkNzY4NWM=",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "localhost:8080/api/clientes/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "76d8b789-ac8d-9830-066c-c3b99aefd699",
+			"data": null,
+			"dataMode": "params",
+			"name": "Listar todos Clientes",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1575664875354,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6047cb44-174b-d1c9-a43b-5cf21c9b1026",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/clientes",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "76d8b789-ac8d-9830-066c-c3b99aefd699",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Cadastrar Cliente",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1575664915584,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"nome\":\"Henrique Cesar\",\n\t\"email\":\"uhcvcosta@hotmail.com\",\n\t\"cpf\":\"40548274894\"\n}"
+		},
+		{
+			"id": "d21c4ed9-b7f7-94b8-a6c7-14c82ca0791a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/clientes/5deabc2594a6ae569d2c9aba",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "76d8b789-ac8d-9830-066c-c3b99aefd699",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Atualizar Cliente",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1575664933816,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\": \"5deabc2594a6ae569d2c9aba\",\n\t\"nome\":\"Henrique Cesar Vieira da Costa\",\n\t\"email\":\"riqpelego@hotmail.com\",\n\t\"cpf\":\"01305011821\"\n}"
+		}
+	]
+}
