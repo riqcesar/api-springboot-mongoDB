@@ -1,4 +1,4 @@
-package com.kazale.crud.api.controllers;
+package com.henrique.crud.api.controllers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kazale.crud.api.documents.Cliente;
-import com.kazale.crud.api.responses.Response;
-import com.kazale.crud.api.service.ClienteService;
+import com.henrique.crud.api.documents.Cliente;
+import com.henrique.crud.api.responses.Response;
+import com.henrique.crud.api.service.ClienteService;
 
 @RestController
 @RequestMapping("/api/clientes")

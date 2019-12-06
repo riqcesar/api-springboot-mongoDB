@@ -1,4 +1,4 @@
-package com.kazale.crud.api.responses;
+package com.henrique.crud.api.responses;
 
 import java.util.List;
 

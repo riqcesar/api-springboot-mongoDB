@@ -1,9 +1,9 @@
-package com.kazale.crud.api.service;
+package com.henrique.crud.api.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.kazale.crud.api.documents.Cliente;
+import com.henrique.crud.api.documents.Cliente;
 
 public interface ClienteService {
 

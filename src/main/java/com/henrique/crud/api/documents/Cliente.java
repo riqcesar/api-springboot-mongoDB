@@ -1,4 +1,4 @@
-package com.kazale.crud.api.documents;
+package com.henrique.crud.api.documents;
 
 import java.io.Serializable;
 

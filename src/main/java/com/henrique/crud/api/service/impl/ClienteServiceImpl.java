@@ -1,4 +1,4 @@
-package com.kazale.crud.api.service.impl;
+package com.henrique.crud.api.service.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.kazale.crud.api.documents.Cliente;
-import com.kazale.crud.api.repository.ClienteRepository;
-import com.kazale.crud.api.service.ClienteService;
+import com.henrique.crud.api.documents.Cliente;
+import com.henrique.crud.api.repository.ClienteRepository;
+import com.henrique.crud.api.service.ClienteService;
 
 @Service
 public class ClienteServiceImpl implements ClienteService {
