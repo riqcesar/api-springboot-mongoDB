@@ -1,2 +1,8 @@
-# api-springboot-mongoDB
-api com crud utilizando spring boot, spring data e mongoDB
+# api-crud-springboot-mongoDB
+
+Tecnologias
+
+* Spring boot
+* Spring data
+* MongoDB
+* Docker
