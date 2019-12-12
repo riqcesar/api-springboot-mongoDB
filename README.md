@@ -2,7 +2,8 @@
 
 Tecnologias
 
-* Spring boot
-* Spring data
+* Springboot
+* SpringMVC
+* SpringData
 * MongoDB
-* Docker
+* Docker e Docker-compose
