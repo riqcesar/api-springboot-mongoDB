@@ -1,9 +1,26 @@
 version: '3'
 
 services:
+
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: riqcesardev/api-crud-mongo-springboot
+    container_name: minha-api
+    ports: 
+      - 8080:8080
+    depends_on:
+      - mongo
+    networks:  
+      - minha-rede
+
   mongo:
     image: mongo
-    ports:
-      - "17017:27017"
-    volumes:
-      - C:\Users\riqce\Documents
+    container_name: meu-mongo     
+    networks:
+      - minha-rede
+    
+networks:
+  minha-rede:
+    driver: bridge
